@@ -1,3 +1,21 @@
+
+> Build using AWS Developer tools
+
+---
+
+| Service        | Provider/Status  |
+| -------------  |:----------------:|
+| CodeBuild      | ![Build Status](https://codebuild.ap-southeast-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoid3IwZDNPZXVTcXZsaTExSWFjeERza0pvUjRPVGQ3M2d5SkxFWmJPdEU3TGNrQ3M3NWdKeGRDU3gzTGRLd3NPeDIzR2JjOTZnTFZUNVZDdnIxWUVPTkVrPSIsIml2UGFyYW1ldGVyU3BlYyI6Imgzd3BLMGR6OGNqNmhIUUQiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master) |
+
+---
+
+| Endpoint        | Header-client_id  | Header-client_secret  | Resource |
+| -------------   |:----------------:| ----------------:| ----------------:|
+| http://tempapi-v1.us-e2.cloudhub.io       | some_id | some_secret | /api/?city=Chennai,IN |
+| http://tempapi-v1.us-e2.cloudhub.io       | some_id | some_secret | /api/?city=Brisbane,AU |
+
+
+
 # Sending a CSV file through email using SMTP
 
 
