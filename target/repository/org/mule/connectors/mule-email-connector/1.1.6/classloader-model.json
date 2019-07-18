@@ -1,0 +1,57 @@
+{
+  "version": "1.1.0",
+  "artifactCoordinates": {
+    "groupId": "org.mule.connectors",
+    "artifactId": "mule-email-connector",
+    "version": "1.1.6",
+    "type": "jar",
+    "classifier": "mule-plugin"
+  },
+  "dependencies": [
+    {
+      "artifactCoordinates": {
+        "groupId": "com.sun.mail",
+        "artifactId": "jakarta.mail",
+        "version": "1.6.3",
+        "type": "jar"
+      },
+      "uri": "repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "com.sun.activation",
+        "artifactId": "jakarta.activation",
+        "version": "1.2.1",
+        "type": "jar"
+      },
+      "uri": "repository/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "commons-collections",
+        "artifactId": "commons-collections",
+        "version": "3.2.2",
+        "type": "jar"
+      },
+      "uri": "repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.apache.commons",
+        "artifactId": "commons-lang3",
+        "version": "3.7",
+        "type": "jar"
+      },
+      "uri": "repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "commons-io",
+        "artifactId": "commons-io",
+        "version": "2.6",
+        "type": "jar"
+      },
+      "uri": "repository/commons-io/commons-io/2.6/commons-io-2.6.jar"
+    }
+  ]
+}
